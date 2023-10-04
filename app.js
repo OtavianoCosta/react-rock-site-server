@@ -1,6 +1,7 @@
 const express = require("express")
 const rotaCamiseta = require("./Rotas/camisetas")
 const app = express()
+app.use(express.json())
 
 app.use('/camisetas', rotaCamiseta)
 

@@ -1,21 +1,17 @@
 const { Router } = require("express")
-const { getCamisetas } = require("../Controladores/casmisetas")
+const { getCamisetas, getCamiseta, postCamiseta, patchCamiseta, deleteCamiseta } = require("../Controladores/casmisetas")
+const { apagaCamiseta } = require("../Servicos/camisetas")
 
 const router = Router()
 
-router.get("/", getCamisetas 
-   
-     ) 
-router.post("/", (req, res) => {
-    res.send("Voce fez um POST")
-})
+router.get("/", getCamisetas ) 
 
-router.patch("/", (req, res) => {
-    res.send("Voce fez um PATCH")
-})
+router.get("/:id", getCamiseta) 
 
-router.delete("/", (req, res) => {
-    res.send("Voce fez um DELETE")
-})
+router.post("/", postCamiseta)
+
+router.patch("/:id", patchCamiseta)
+
+router.delete("/:id", deleteCamiseta)
 
     module.exports = router
