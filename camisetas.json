@@ -1,1 +1,34 @@
-[{"id":"1","nome":"Camiseta do Motorhead"},{"id":"3","nome":"Camiseta do Machine Head"},{"id":"4","nome":"Camiseta System of a Down"}]
+[
+    {
+      "id": "4",
+      "nome": "Camiseta do Motorhead"
+    },
+    {
+      "id": "5",
+      "nome": "Camiseta do Machine Head"
+    },
+    {
+      "id": "7",
+      "nome": "Camiseta do Alice in Chains"
+    },
+    {
+      "id": "8",
+      "nome": "Camiseta do System of a Down"
+    },
+    {
+      "id": "9",
+      "nome": "Camiseta do Iron Maiden"
+    },
+    {
+      "id": "10",
+      "nome": "Camiseta do Black Sabbath"
+    },
+    {
+      "id": "11",
+      "nome": "Camiseta do Metallica"
+    },
+    {
+      "id": "12",
+      "nome": "Camiseta do Pink floyd"
+    }
+  ]
